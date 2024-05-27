@@ -1,4 +1,225 @@
 
+/* Default Text Styles */
+*{
+    font-family: Helvetica, Arial, sans-serif;
+    
+    }
+    
+    /* Body Styling */
+    body 
+    {
+        
+        flex-wrap: wrap;
+      
+    }
+    
+
+    /* Header Styles */
+    header
+    {
+        background: linear-gradient(to right, rgba(225, 228, 196, 0.9),rgba(225, 228, 196, 0.4));
+        width: 100%;
+        height: 100px;
+        display:flex;
+        justify-content: space-around;
+    }
+    header img
+    {
+        padding: 8px;
+    }
+
+    /* Nav Bar */
+    nav
+    {
+        display: flex;
+        justify-content:left;
+        align-items: end;
+        width: 70%;
+    }
+
+    nav a
+    {
+        padding: 15px;
+        font-size: 25px;
+        color: white;
+
+    }
+
+
+    /* Search Field */
+    .search-objects{
+        width: 30%;
+        height: 100%;
+        position: relative;
+        display: flex;
+        align-items: end;
+        justify-content: center;
+        
+        
+    }
+
+    .search-form{
+    width: 100%;
+    max-width: 250px;
+    height: 40px;
+    margin: 10px;
+    position: absolute;
+    left: 0;
+    background: rgba(86, 3, 3, 0.3);
+    display: flex;
+    align-items: center;
+    border: 20px;
+    border-radius: 65px;
+    padding: 4px;
+
+    }
+    .search-form input{
+        background: transparent;
+        flex: 1;
+        border: 0;
+        outline: 0;
+        padding: 3px;
+        font-size: 18px;
+        color: darkslategray;
+        
+    }
+
+    .search-form button img{
+     width: 50px;
+     height: 50px;
+      margin: -16px -25px;
+    }
+
+    .search-form button
+    {
+        border: 0;
+        border-radius: 50%;
+        width: 25px;
+        height: 20px;
+        background: dimgray;
+        cursor: pointer;
+        right: 0;
+        position: relative;
+    }
+
+    .search-objects img{
+        max-width: 200px;
+        max-height: 200px;
+        padding: 8px;
+        position:absolute;
+        bottom: 0;
+        margin: 5px 20px 5px 5px;
+       
+    } 
+
+
+
+    /* Banner Styling */
+
+    .name-banner{
+        width: 100%;
+        height: 150px;
+        background-image: linear-gradient(to right, rgba(183, 208,237, 0.9), rgba(183, 208,237, 0.2));
+        display: flex;
+        align-items: center;
+    }
+
+    /* Name Styling */
+
+    h1 {
+        height: 100%;
+        font-size: 400%;
+        padding: 3%;
+        margin: 1%;
+
+        /* Main styling  */
+        
+        
+    }
+
+    .main-section{
+        display: flex;
+        min-height: 500px;
+        background-color: aqua;
+        justify-content: space-around;
+        align-items: center;
+      }
+      
+
+      /* Portfolio Cards */
+      .portfolio-cards{
+        height: 400px;
+        width: 300px;
+        background-color: bisque;
+        border-radius: 10px;
+
+      }
+
+      #card-one{
+        background-image: url(./images/challengeOne.jpg);
+        background-size: cover;
+        background-position: center;
+        transition:  0.4s ease;
+        background-repeat: no-repeat;
+
+
+      }
+
+
+
+
+      #card-three{
+        background-image: url(./images/exampleWebPage.webp);
+        background-size: cover;
+        background-position: center;
+        transition:  0.4s ease;
+        background-repeat: no-repeat;
+
+
+      }
+      
+      #card-two{
+        background-image: url(./images/exampleweb2.webp);
+        background-size: cover;
+        background-position: -230px 0px;
+        background-repeat: no-repeat;
+        transition: transform 0.4s ease;
+
+      }
+
+      .portfolio-cards:hover{
+        transform: scale(1.1);
+        box-shadow: inset 0px 0px 12px rgba(232, 102, 236, 1), 0 0 15px rgba(232, 102, 236, 1);
+
+      }
+
+      /* Footer */
+
+      footer{
+        background-color: wheat;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        
+      }
+      footer p{width: 200px;
+      font-size: 20px;
+      }
+
+      /* Media query */
+
+      @media screen and (max-width: 768px) {
+        main,
+        nav {
+          flex-direction: column;
+        }
+      }
+      
+
+     
+        
 
 
 

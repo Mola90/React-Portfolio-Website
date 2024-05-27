@@ -6,6 +6,7 @@ import './index.css'
 
 import AboutMe from './Components/Pages/Aboutme.jsx';
 import Portfolio from './Components/Pages/Portfolio.jsx';
+import ContactMe from './Components/Pages/ContactMe.jsx';
 
 const router = createBrowserRouter(
   // Todo: Define the accessible routes, and which components respond to which URL
@@ -22,6 +23,10 @@ const router = createBrowserRouter(
         {
           path: "portfolio",
           element: <Portfolio />
+        },
+        {
+          path: "contactme",
+          element: <ContactMe />
         },
    
       ],
