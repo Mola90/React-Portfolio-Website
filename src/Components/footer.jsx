@@ -3,7 +3,7 @@ function Footer (){
         <>
         <div class="text-center">
     <a href="https://github.com/Mola90" class="flex items-center justify-center mb-5 text-2xl font-semibold text-gray-900">
-        <img src="..\..\public\images\myAvatar-removebg-preview.png" class="h-12 mr-3 sm:h-9" alt="Landwind Logo"/>
+        <img src="..\..\assets\images\myAvatar-removebg-preview.png" class="h-12 mr-3 sm:h-9" alt="Landwind Logo"/>
 		Molaligne (Mola) Dafa
     </a>
 
