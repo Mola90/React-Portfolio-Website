@@ -5,7 +5,7 @@ function AboutMe() {
         <div className="m-2 p-2 absolute inset-0 bg-fixed bg-cover bg-center opacity-10" style={{ backgroundImage: 'url(https://www.example.com/background-pattern.png)' }}></div>
         <div className="relative bg-white p-6 rounded-lg shadow-lg w-full max-w-5xl m-2" >
             <div className="flex justify-center mb-6">
-                <img src="../../../public\images\FB_IMG_1660219443797 (2).jpg" alt="Profile" className="w-64 h-64 rounded-full border-4 border-white shadow-md" />
+                <img src="../../../public\images\FB_IMGone" alt="Profile" className="w-64 h-64 rounded-full border-4 border-white shadow-md" />
             </div>
             <div className="mb-4 pb-2 text-left">
             <h1 className="text-4xl font-bold text-gray-800">About Me</h1>
