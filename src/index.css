@@ -156,7 +156,7 @@
       }
 
       #card-one{
-        background-image: url(./images/challengeOne.jpg);
+        background-image: url(../public/images/challengeOne.jpg);
         background-size: cover;
         background-position: center;
         transition:  0.4s ease;
@@ -169,7 +169,7 @@
 
 
       #card-three{
-        background-image: url(../public/images/projects/Screen\ Capture\ 017\ -\ Note\ Taker\ -\ localhost.jpg);
+        background-image: url(../public/images/Screen\ Capture\ 011\ -\ Vite\ +\ React\ -\ localhost.jpg);
         background-size: contain;
         background-position: center;
         transition:  0.4s ease;
